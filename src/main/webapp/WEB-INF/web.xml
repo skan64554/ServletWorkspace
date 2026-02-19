@@ -24,7 +24,7 @@
     <welcome-file>default.htm</welcome-file>
   </welcome-file-list>
   
-  <!-- 
+  <!-- l.
   	생성한 서블릿 등록하기
   	1. web.xml에 등록
   	2. annotation으로 자동 등록
@@ -37,11 +37,6 @@
    		<servlet-name>firstServlet</servlet-name>
    		<url-pattern>/first</url-pattern>
    </servlet-mapping>
-  
-  
-  
-  
-  
-  
+
   
 </web-app>
