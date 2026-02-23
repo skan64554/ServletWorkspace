@@ -4,11 +4,11 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>스크립트 원소</title>
+<title>스크립팅 원소</title>
 </head>
 <body>
 	<!-- HTML주석 -->
-	<%-- JSP 주석 : 개발자 도구에 노출되지 않는다 --%>
+	<%-- jsp 주석 : 개발자 도구에 노출되지 않는다. --%>
 	<h1>스크립팅 원소</h1>
 	<%
 		// 스크립틀릿 : 일반적인 자바 코드를 작성
@@ -16,9 +16,9 @@
 		int num = 1;
 	%>
 	<p>
-		화면상에 변수를 출력하고자 한다면... <br>
+		화면상에 변수를 출력하고자 한다면.. <br>
 		1. 스클립틀릿을 활용 : <% out.print(num); %> <br>
-		2. 표현식(출력식) 활용 : <%= num %> 
+		2. 표현식(출력식) 활용 : <%= num %>
 	</p>
 	
 	<%
@@ -26,10 +26,16 @@
 	%>
 	<h4>jsp에서 반복문 사용하기</h4>
 	<ul>
-		<% for(String name : names){%>
-			<li><%= name %></li>
+		<% for(String name : names) { %>
+			<li><%=name %></li>
 		<% } %>
 	</ul>
+	
+	
 
 </body>
 </html>
+
+
+
+

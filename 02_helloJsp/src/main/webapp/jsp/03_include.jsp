@@ -12,7 +12,6 @@
 		include지시어를 통해 다른 페이지의 html을
 		현재 jsp에 추가할 수 있다.
 	</p>
-	
 	<%@ include file="header.jsp" %>
 	
 	<h1>Content</h1>
@@ -20,7 +19,7 @@
 	<script>
 		$(function(){
 			$("h1").css("color","pink");
-		})		
+		})
 	</script>
 	
 	<%@ include file="footer.jsp" %>

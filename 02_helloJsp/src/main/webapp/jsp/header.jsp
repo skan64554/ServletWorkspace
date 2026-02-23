@@ -1,9 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%
-	String name = "크로클";
-	
-
+	String name = "민경민";
 %>
 <!DOCTYPE html>
 <html>
@@ -14,7 +12,12 @@
 </head>
 <body>
 	<header>
-		<h1>여기는 문서의 Header영역입니다.</h1>
+		<h1>여기는 문서의 Hedaer영역입니다.</h1>
 	</header>
 </body>
 </html>
+
+
+
+
+

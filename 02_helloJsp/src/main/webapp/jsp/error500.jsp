@@ -7,10 +7,16 @@
 <title>Insert title here</title>
 </head>
 <body>
-
 	<h1 style="color:red; text-align:center;">
 		오류발생
 	</h1>
+
+
+
+
+
+
+
 
 
 
